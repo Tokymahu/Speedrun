@@ -1,0 +1,161 @@
+
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speedrun</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background: #101010;
+            color: #eeeeee;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            height: 65px;
+            border-bottom: 1px solid #292929;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 8%;
+        }
+
+        .logo {
+            font-size: 21px;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+
+        .version {
+            color: #888;
+            font-size: 13px;
+        }
+
+        main {
+            max-width: 850px;
+            margin: 130px auto;
+            padding: 0 25px;
+        }
+
+        .label {
+            color: #888;
+            font-size: 12px;
+            letter-spacing: 2px;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-size: 58px;
+            margin-bottom: 18px;
+            letter-spacing: -2px;
+        }
+
+        .description {
+            color: #999;
+            font-size: 16px;
+            line-height: 1.7;
+            max-width: 480px;
+            margin-bottom: 35px;
+        }
+
+        .download {
+            display: inline-block;
+            background: #eeeeee;
+            color: #111;
+            text-decoration: none;
+            padding: 14px 24px;
+            font-size: 14px;
+            font-weight: bold;
+            border-radius: 4px;
+            transition: background .2s;
+        }
+
+        .download:hover {
+            background: #cccccc;
+        }
+
+        .details {
+            color: #666;
+            font-size: 12px;
+            margin-top: 15px;
+        }
+
+        .divider {
+            border-top: 1px solid #292929;
+            margin-top: 90px;
+            padding-top: 25px;
+        }
+
+        .about {
+            color: #aaa;
+            font-size: 14px;
+            line-height: 1.8;
+        }
+
+        footer {
+            border-top: 1px solid #292929;
+            padding: 25px 8%;
+            color: #666;
+            font-size: 12px;
+        }
+
+        @media (max-width: 600px) {
+            main {
+                margin-top: 90px;
+            }
+
+            h1 {
+                font-size: 42px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">speedrun.</div>
+        <div class="version">Version 1.0</div>
+    </header>
+
+    <main>
+        <div class="label">WINDOWS APPLICATION</div>
+
+        <h1>THE ONE SUCCESS</h1>
+
+        <p class="description">
+            Speedrun is a small Windows application.
+            Download the installer below to get started.
+        </p>
+
+        <a class="download" href="SpeedrunSetup.exe" download>
+            Download for Windows
+        </a>
+
+        <p class="details">
+            Windows 10 / 11 · 64-bit · Version 1.0
+        </p>
+
+        <div class="divider">
+            <p class="about">
+                <strong>About</strong><br>
+                THE ONE SUCCESS is a Windows desktop application
+                distributed under the Speedrun name.
+            </p>
+        </div>
+    </main>
+
+    <footer>
+        © 2026 Speedrun
+    </footer>
+
+</body>
+</html>
